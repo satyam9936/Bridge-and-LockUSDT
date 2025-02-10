@@ -29,6 +29,6 @@ contract Token {
         require(balance >= amount, "You dont have enough baance");
         balances[msg.sender] -= amount;
         supply -= amount;
-    }
+    } 
     
 }
